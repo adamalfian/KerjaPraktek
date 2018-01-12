@@ -10,7 +10,7 @@ body {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 14px;
 	line-height: 1.4em; 
-	background-color: #d6d6ce;
+	background-color: white;
 }
 
 a, a:link, a:visited { 
@@ -149,16 +149,15 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 
 #templatemo_middle_l {
 	width: 55%;
-	height: 430px;
-	margin: 35px 30px 0px 120px;
+	height: 410px;
+	margin: 10px 30px 0px 120px;
 	padding: 60px 10px;
-	background: #c8c8bd;
 	opacity: 0.9; 
 	float :left;
 }
 
 #templatemo_middle_r {
-	width: 30%;
+	width: 28%;
 	height: 430px;
 	margin: 35px 60px 0px 0px;
 	padding: 60px 10px;
