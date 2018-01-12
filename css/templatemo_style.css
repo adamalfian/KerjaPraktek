@@ -147,11 +147,20 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	background: #1f1f1e url(../images/templatemo_middle.jpg) no-repeat
 }
 
-#templatemo_middle {
-	width: 50%;
+#templatemo_middle_l {
+	width: 55%;
 	height: 430px;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin: 35px 30px 0px 120px;
+	padding: 60px 10px;
+	background: #c8c8bd; 
+	opacity: 0.2;
+	float :left;
+}
+
+#templatemo_middle_r {
+	width: 30%;
+	height: 430px;
+	margin: 35px 60px 0px 0px;
 	padding: 60px 10px;
 	background: #c8c8bd; 
 	opacity: 0.2;
