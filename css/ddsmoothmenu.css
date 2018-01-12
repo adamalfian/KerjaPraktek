@@ -19,13 +19,13 @@
 /*Top level menu link items style*/
 .ddsmoothmenu ul li a {
 	display: block;
-	width: 120px;
+	width: 160px;
 	height: 31px;
 	line-height: 24px;
 	padding: 8px;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	font-size: 14px;
+	font-size: 16px;
 	color: #d6d6ce;	
 	text-decoration: none;
 	font-weight: 400;
