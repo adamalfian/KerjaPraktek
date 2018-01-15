@@ -58,7 +58,7 @@
   var flashvars = {};
   flashvars.cssSource = "css/piecemaker.css";
   flashvars.xmlSource = "piecemaker.xml";
-	
+  
   var params = {};
   params.play = "true";
   params.menu = "false";
@@ -97,21 +97,20 @@ function clearText(field)
 <script type="text/javascript">
 
 ddsmoothmenu.init({
-	mainmenuid: "templatemo_menu", //menu DIV id
-	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
-	classname: 'ddsmoothmenu', //class added to menu's outer DIV
-	//customtheme: ["#1c5a80", "#18374a"],
-	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+  mainmenuid: "templatemo_menu", //menu DIV id
+  orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+  classname: 'ddsmoothmenu', //class added to menu's outer DIV
+  //customtheme: ["#1c5a80", "#18374a"],
+  contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
 })
 
-</script>
+</script> 
 <script id="chatBroEmbedCode">
-/* Chatbro Widget Embed Code Start */
-function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET','https://www.chatbro.com/embed.js?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}
+  /* Chatbro Widget Embed Code Start */
+  function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET','https://www.chatbro.com/embed.js?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}
 /* Chatbro Widget Embed Code End */
 ChatbroLoader({encodedChatId: '1gbE'});
 </script>
-
 </head>
 
 <body>
@@ -133,14 +132,16 @@ ChatbroLoader({encodedChatId: '1gbE'});
 <div id="templatemo_middle_wrapper2">
 </div>
 <div id="templatemo_middle_wrapper">
+  <div id="templatemo_middle_wrapper_all">
     <!-- Frame Works 1-->
     <div id="templatemo_middle_l" >
-        <center><img src="images/SOA_MAP.jpg" width="600px" height="390px"></center>
+        <img id="map" src="images/SOA_MAP.jpg" style="width: 100%">
     </div>
     <!-- Frame Works 2-->
     <div id="templatemo_middle_r">
       <div id="chatbroHistory">
       </div>
+    </div>
     </div>
 </div> <!-- END of slider -->
 
@@ -197,34 +198,45 @@ ChatbroLoader({encodedChatId: '1gbE'});
 
     <div class="cleaner"></div>
  <section class="regular slider">
+    
     <div>
-        <a href="https://www.google.co.id/">
-          <img src="http://placehold.it/350x300?text=1">
-        </a>
+      <a href="https://www.google.co.id/">
+        <img src="images/LogoSOAPortal/1-DaftarPlatformSDP.png">
+      </a>
     </div>
     <div>
-      <img src="http://placehold.it/350x300?text=2">
+      <a href="https://www.google.co.id/">
+        <img src="images/LogoSOAPortal/2-DaftarPlatformEAI.png">
+      </a>
     </div>
     <div>
-      <img src="http://placehold.it/350x300?text=3">
+      <a href="https://www.google.co.id/">
+        <img src="images/LogoSOAPortal/3-DaftarPlatformWSO2.png">
+      </a>
     </div>
     <div>
-      <img src="http://placehold.it/350x300?text=4">
+      <a href="https://www.google.co.id/">
+        <img src="images/LogoSOAPortal/4-WikiDevSOA.png">
+      </a>
     </div>
     <div>
-      <img src="http://placehold.it/350x300?text=5">
+      <a href="https://www.google.co.id/">
+        <img src="images/LogoSOAPortal/5-WikiD2PSOA.png">
+      </a>
     </div>
     <div>
-      <img src="http://placehold.it/350x300?text=6">
+      <a href="https://www.google.co.id/">
+        <img src="images/LogoSOAPortal/6-WikiArtikelSOA.png">
+      </a>
     </div>
   </section>
 </div> <!-- END of main -->
 
 
 <div id="templatemo_footer_wrapper">
-	<div id="templatemo_footer">
+  <div id="templatemo_footer">
     <iframe style="width: 100% " height="300px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vReZX-4J6DS9EETOR1gHUXnkD7CGVvCVCnPbPUOTY1KU_pJi6STf52dVUYCGLYz0FdZleqo1thpqZ9k/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> 
-     <div class="cleaner h50"></div>		 
+     <div class="cleaner h50"></div>     
       <iframe style="width: 100% " height="300px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPp1rCShOrWfTtrYIXwxnpUrKIVW2dUqOD97k-SHA9fLfpcUywwNCM3EaMd_Hf5mv9S19PKO5LOm_R/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>       
   </div>
    
