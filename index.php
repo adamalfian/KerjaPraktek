@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Work Center Theme - Free CSS Template</title>
+<title>SOA Portal</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
@@ -117,7 +117,9 @@ ChatbroLoader({encodedChatId: '7gYQ'});
 
 <div id="templatemo_header_wrapper">
     <div id="templatemo_header">
-        <div id="site_title"><a>SOA<span style="color: red"> Portal</span></a></div>
+        <div id="site_title"><a href="#"><img src="images/Logo SOAPortal/LogoSOA-warna.png" width="100%"></a>
+
+        </div>
         <div id="templatemo_menu" class="ddsmoothmenu">
             <ul>
                 <li><a href="https://docs.google.com/spreadsheets/d/16zmsnK-yCQSDDR4l2Wi0Q4JDvJsmr6ljtJACRPFTZ4U/edit#gid=0">Daftar Requirement</a></li>
@@ -127,11 +129,12 @@ ChatbroLoader({encodedChatId: '7gYQ'});
         </div> <!-- end of templatemo_menu -->
     </div> <!-- END of header -->
 </div>
-
+<div id="templatemo_middle_wrapper2">
+</div>
 <div id="templatemo_middle_wrapper">
     <!-- Frame Works 1-->
     <div id="templatemo_middle_l" >
-        <center><img src="images/SOA_MAP.jpg" width="80%" height="60%"></center>
+        <center><img src="images/SOA_MAP.jpg" width="600px" height="390px"></center>
     </div>
     <!-- Frame Works 2-->
     <div id="templatemo_middle_r">
@@ -219,9 +222,9 @@ ChatbroLoader({encodedChatId: '7gYQ'});
 
 <div id="templatemo_footer_wrapper">
 	<div id="templatemo_footer">
-    <iframe style="width: 100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vReZX-4J6DS9EETOR1gHUXnkD7CGVvCVCnPbPUOTY1KU_pJi6STf52dVUYCGLYz0FdZleqo1thpqZ9k/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> 
-     <div class="cleaner"></div> 		 
-      <iframe style="width: 100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPp1rCShOrWfTtrYIXwxnpUrKIVW2dUqOD97k-SHA9fLfpcUywwNCM3EaMd_Hf5mv9S19PKO5LOm_R/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>       
+    <iframe style="width: 100% " height="300px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vReZX-4J6DS9EETOR1gHUXnkD7CGVvCVCnPbPUOTY1KU_pJi6STf52dVUYCGLYz0FdZleqo1thpqZ9k/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> 
+     <div class="cleaner h50"></div>		 
+      <iframe style="width: 100% " height="300px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPp1rCShOrWfTtrYIXwxnpUrKIVW2dUqOD97k-SHA9fLfpcUywwNCM3EaMd_Hf5mv9S19PKO5LOm_R/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>       
   </div>
    
 

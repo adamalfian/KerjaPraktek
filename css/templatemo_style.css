@@ -132,37 +132,41 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 #templatemo_header_wrapper {
 	width: 100%;
 	height: 63px;
-	background: url(../images/templatemo_header_bg.jpg) repeat-x 
+	background: url(../images/templatemo_header_bg.jpg) repeat-x;
 }
 
 #templatemo_header {
 	width: 960px;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 0px;
 }
 
 #templatemo_middle_wrapper {
 	width: 100%;
-	height: 538px;
-	background: #1f1f1e url(../images/templatemo_middle.jpg) no-repeat
+	height: 500px;
+	padding: 50px 0px 0px 150px;
+	background: #1f1f1e url(../images/templatemo_middle.jpg) no-repeat;
 }
+
+#templatemo_middle_wrapper2 {
+	width: 100%;
+	height: 30px;
+	background: #1f1f1e url(../images/templatemo_header_bg.jpg) repeat-x;
+	opacity: 0;
+}
+
+
 
 #templatemo_middle_l {
 	width: 50%;
-	height: 410px;
-	margin: 10px 30px 0px 120px;
-	padding: 60px 10px;
-	opacity: 0.9; 
+	height: 100%;
 	float :left;
 }
 
 #templatemo_middle_r {
-	width: 28%;
-	height: 430px;
-	margin: 35px 60px 0px 0px;
-	padding: 60px 10px;
-	background: #c8c8bd; 
-	opacity: 0.2;
+	width: 35%;
+	height: 410px;
+	margin: 0px 60px 0px 0px;
 	float :right;
 }
 
@@ -194,20 +198,16 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 
 #site_title { 
 	float: left; 
-	width: 60%;
+	width: 30%;
 }
 
-#site_title a { 
+#site_title a {  
 	display: block; 
-	color: #fff; 
-	font-size: 38px; 
-	font-weight: 700; 
-	line-height: 40px; 
 }
 
 #site_title img{
-	height: 30%;
-	width: 40%;
+	height: 60%;
+	width: 75%;
 }
 
 #site_title a span { 
@@ -219,6 +219,7 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 }
 
 #templatemo_menu { 
+	margin: 0px 10px 4px 0px;
 	float: right; 
 }
 
