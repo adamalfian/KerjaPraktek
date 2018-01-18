@@ -121,13 +121,13 @@
     <a class="navbar-brand" href="#"><img src="images/LogoSOAPortal/LogoSOA-warna-merahbgt.png" width="200px"></a>
     <ul class="nav navbar-nav navbar-right" style="padding-right: 40px">
       <li class="li_nav">
+        <a href="#" data-toggle="modal" data-target="#myModal">Upload File</a>
+      </li>
+      <li class="li_nav">
         <a href="https://docs.google.com/spreadsheets/d/16zmsnK-yCQSDDR4l2Wi0Q4JDvJsmr6ljtJACRPFTZ4U/edit#gid=0" target="blank">Daftar Requirement</a>
       </li>
       <li class="li_nav">
         <a href="https://docs.google.com/spreadsheets/d/110zSWm-pK67-EUFdE7MTeyw9Hg0YJyfccFgoVALUwqk/edit#gid=0" target="blank">Daftar Dev-to-Prod</a>
-      </li>
-      <li class="li_nav">
-        <a href="#" data-toggle="modal" data-target="#myModal">Upload File</a>
       </li>
     </ul>
   </div>
@@ -145,6 +145,7 @@
       <div class="modal-body">
         <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="file" name="fileToUpload" id="fileToUpload">
+        <br>
         <input type="submit" value="Upload" name="submit">
         </form>
       </div>
@@ -158,7 +159,7 @@
   <div id="templatemo_middle_wrapper_all">
     <!-- Frame Works 1-->
     <div id="templatemo_middle_l" >
-        <img id="map" src="images/SOA_MAP.jpg" style="height: 100%; width: 100%; padding-top: 30px">
+        <img id="map" src="images/SOA_MAP.jpg">
     </div>
     <!-- Frame Works 2-->
     <div id="templatemo_middle_r">
