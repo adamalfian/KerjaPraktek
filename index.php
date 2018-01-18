@@ -147,6 +147,7 @@ ChatbroLoader({encodedChatId: '1gbE'});
                 </div>
               </div>
           </div>
+          
         </div> <!-- end of templatemo_menu -->
     </div> <!-- END of header -->
 </div>
