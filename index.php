@@ -6,7 +6,9 @@
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/swfobject/swfobject.js"></script>
 <link rel="stylesheet" type="text/css" href="css/slick.css">
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
@@ -117,15 +119,34 @@ ChatbroLoader({encodedChatId: '1gbE'});
 
 <div id="templatemo_header_wrapper">
     <div id="templatemo_header">
-        <div id="site_title"><a href="#"><img src="images/Logo SOAPortal/LogoSOA-warna.png" width="100%"></a>
+        <div id="site_title"><a href="#"><img src="images/LogoSOAPortal/LogoSOA-warna-merahbgt.png" width="100%"></a>
 
         </div>
         <div id="templatemo_menu" class="ddsmoothmenu">
             <ul>
-                <li><a href="https://docs.google.com/spreadsheets/d/16zmsnK-yCQSDDR4l2Wi0Q4JDvJsmr6ljtJACRPFTZ4U/edit#gid=0">Daftar Requirement</a></li>
-                <li><a href="https://docs.google.com/spreadsheets/d/110zSWm-pK67-EUFdE7MTeyw9Hg0YJyfccFgoVALUwqk/edit#gid=0">Daftar Dev-to-Prod</a></li>
+                <li><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal">Upload File</button></li>
+                <li><a target="blank" href="https://docs.google.com/spreadsheets/d/16zmsnK-yCQSDDR4l2Wi0Q4JDvJsmr6ljtJACRPFTZ4U/edit#gid=0">Daftar Requirement</a></li>
+                <li><a target="blank" href="https://docs.google.com/spreadsheets/d/110zSWm-pK67-EUFdE7MTeyw9Hg0YJyfccFgoVALUwqk/edit#gid=0">Daftar Dev-to-Prod</a></li>
             </ul>
             <br style="clear: left" />
+            <div class="modal fade" id="myModal" role="dialog" style="display: none;">
+              <div class="modal-dialog">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Upload File</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <input type="submit" value="Upload" name="submit">
+                    </form>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div> <!-- end of templatemo_menu -->
     </div> <!-- END of header -->
 </div>
