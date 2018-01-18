@@ -133,43 +133,6 @@
   </div>
 </nav>
 
-<<<<<<< Updated upstream
-<div id="templatemo_header_wrapper">
-    <div id="templatemo_header">
-        <div id="site_title"><a href="#"><img src="images/LogoSOAPortal/LogoSOA-warna-merahbgt.png" width="100%"></a>
-
-        </div>
-        <div id="templatemo_menu" class="ddsmoothmenu">
-            <ul>
-                <li><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal">Upload File</button></li>
-                <li><a target="blank" href="https://docs.google.com/spreadsheets/d/16zmsnK-yCQSDDR4l2Wi0Q4JDvJsmr6ljtJACRPFTZ4U/edit#gid=0">Daftar Requirement</a></li>
-                <li><a target="blank" href="https://docs.google.com/spreadsheets/d/110zSWm-pK67-EUFdE7MTeyw9Hg0YJyfccFgoVALUwqk/edit#gid=0">Daftar Dev-to-Prod</a></li>
-            </ul>
-            <br style="clear: left" />
-            <div class="modal fade" id="myModal" role="dialog" style="display: none;">
-              <div class="modal-dialog">
-              
-                <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">×</button>
-                    <h4 class="modal-title">Upload File</h4>
-                  </div>
-                  <div class="modal-body">
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input type="file" name="fileToUpload" id="fileToUpload">
-                    <input type="submit" value="Upload" name="submit">
-                    </form>
-                  </div>
-                </div>
-              </div>
-          </div>
-          
-        </div> <!-- end of templatemo_menu -->
-    </div> <!-- END of header -->
-</div>
-<div id="templatemo_middle_wrapper2">
-=======
 <!-- modal -->
 <div id="myModal" class="modal fade" role="dialog" style="display: none">
   <div class="modal-dialog">
@@ -187,7 +150,6 @@
       </div>
     </div>
   </div>
->>>>>>> Stashed changes
 </div>
 
 <!-- BODY -->
